@@ -1,9 +1,10 @@
-var btn = document.getElementById('btn')
+var btn = document.getElementById('btn') // Button variable
 
+// Event that will trigger the functions
 window.addEventListener('load', randomColor)
 btn.addEventListener('click', randomColor)
 
-function randomColor() {
+function randomColor() {// Function to change the background to a random color
 	
 	let r, g, b
 
