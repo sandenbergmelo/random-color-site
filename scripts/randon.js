@@ -1,6 +1,6 @@
 var btn = document.getElementById('btn') // Button variable
 
-// Event that will trigger the functions
+// Events that will trigger the functions
 window.addEventListener('load', randomColor)
 btn.addEventListener('click', randomColor)
 
